@@ -4,7 +4,6 @@ Adds a rewrite\_rules context to the Aegir site context to allow you to store re
 
 hello #dcavl folks!
 
-
 ## Installation
 
     cd /var/aegir/src
@@ -25,3 +24,4 @@ Only enter valid rewrite rules, ex:
 
 If you find that your rewrite rules fail to work after you verify your site you might have an error in one of your rules.
 
+Use at your own risk, it's still a work in progress!
