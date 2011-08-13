@@ -2,6 +2,8 @@
 
 Adds a rewrite\_rules context to the Aegir site context to allow you to store rewrite rules along with the site information.
 
+based on: http://www.computerminds.co.uk/articles/storing-data-aegir
+
 hello #dcavl folks!
 
 ## Installation
