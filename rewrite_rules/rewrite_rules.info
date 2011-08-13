@@ -1,0 +1,6 @@
+name = Hosting rewrite rules
+description = A way to add rewrite rules to nodes.
+package = Hosting
+dependencies[] = hosting
+
+core = 6.x
