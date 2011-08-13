@@ -3,7 +3,7 @@
 /**
  * Implementation of hook_form_alter().
  *
- * Add a simple form element to specify the subfolder.
+ * Add a simple form element to specify the rewrite rules.
  */
 function rewrite_rules_form_alter(&$form, $form_state, $form_id) {
   if ($form_id == 'site_node_form') {
@@ -22,7 +22,7 @@ function rewrite_rules_form_alter(&$form, $form_state, $form_id) {
 /**
  * Implementation of hook_nodeapi().
  *
- * Just store and load the subfolder_path field in/from the variable table.
+ * Just store and load the rewrite_rules field in/from the variable table.
  */
 function rewrite_rules_nodeapi(&$node, $op, $a3 = NULL, $a4 = NULL) {
   switch ($op) {
